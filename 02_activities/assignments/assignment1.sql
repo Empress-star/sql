@@ -1,3 +1,5 @@
+/*Participant Name: Ts'ui Toy (Empress-star)*/
+
 /* ASSIGNMENT 1 */
 /* SECTION 2 */
 

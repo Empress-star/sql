@@ -22,7 +22,7 @@ Checklist:
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-6-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
 ***
-
+## Participant Name: Ts'ui Toy (Empress-star)
 ## Section 1:
 You can start this section following *session 1*, but you may want to wait until you feel comfortable wtih basic SQL query writing. 
 
@@ -54,7 +54,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+Option 1: A customer_addresses table that includes the following columns: customer_id, customer_street_address, customer_city, customer_province, customer_country, customer_postal_code. This would would be the Type 1 table, which has no history.
+
+Option 2: A customer_addresses table that includes the following columns: record_date, customer_id, customer_street_address, customer_city, customer_province, customer_country, customer_postal_code. This would be the Type 2 table, as it would keep the full history by having one entry per customer address per day it was updated.
 ```
 
 ***
